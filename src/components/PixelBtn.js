@@ -16,7 +16,7 @@ const bS = {
 
 const PixelBtn = ({ type, func}) => (
     <button style={ type === 'a' ? { ...style, ...aS } : { ...style, ...bS}}
-            func={func}
+            onClick={func}
     />
 );
 
